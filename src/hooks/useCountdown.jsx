@@ -4,7 +4,7 @@ import { useEffect } from "react";
 const useCountdown = () => {
 	const now = new Date().getTime();
 	const deadline = new Date("12 jan,2023,00:15:00").getTime();
-
+  
 	const [countDown, setCountDown] = useState(deadline - now);
 
 	useEffect(() => {
@@ -27,3 +27,4 @@ const getRealTime = (countDown) => {
 };
 
 export { useCountdown };
+
