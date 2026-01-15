@@ -7,7 +7,7 @@ import { formatPrice } from "../../utils/formatPrice";
 //redux 
 import { useSelector, useDispatch } from "react-redux";
 import { totalOrderAmount, storeOrders } from "../../redux/slice/orderSlice";
-import useFetchCollection from "../../hooks/useFetchCollection";
+import useFetchCollection from "../../hooks/useFetchCollection";  
 
 const earningIcon = <BiRupee size={22} color="white" />;
 const productIcon = <FaCartArrowDown size={22} color="white" />;
@@ -40,6 +40,7 @@ const AdminHome = () => {
 };
 
 export default AdminHome;
+
 
 
 
