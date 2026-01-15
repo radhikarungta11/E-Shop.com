@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { InfoBox, Chart } from "../../components";
 import { BiRupee } from "react-icons/bi";
 import { FaCartArrowDown } from "react-icons/fa";
-import { BsCart } from "react-icons/bs";
+import { BsCart } from "react-icons/bs";  
 import { formatPrice } from "../../utils/formatPrice";
 //redux
 import { useSelector, useDispatch } from "react-redux";
@@ -40,3 +40,4 @@ const AdminHome = () => {
 };
 
 export default AdminHome;
+
