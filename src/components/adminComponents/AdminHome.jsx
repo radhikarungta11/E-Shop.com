@@ -4,7 +4,7 @@ import { BiRupee } from "react-icons/bi";
 import { FaCartArrowDown } from "react-icons/fa";
 import { BsCart } from "react-icons/bs";  
 import { formatPrice } from "../../utils/formatPrice";
-//redux
+//redux 
 import { useSelector, useDispatch } from "react-redux";
 import { totalOrderAmount, storeOrders } from "../../redux/slice/orderSlice";
 import useFetchCollection from "../../hooks/useFetchCollection";
@@ -40,4 +40,5 @@ const AdminHome = () => {
 };
 
 export default AdminHome;
+
 
