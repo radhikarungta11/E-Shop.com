@@ -11,7 +11,7 @@ import useFetchCollection from "../../hooks/useFetchCollection";
 
 const earningIcon = <BiRupee size={22} color="white" />;
 const productIcon = <FaCartArrowDown size={22} color="white" />;
-const orderIcon = <BsCart size={22} color="white" />;
+const orderIcon = <BsCart size={22} color="white" />;  
 
 const AdminHome = () => {
 	const { data } = useFetchCollection("orders");
@@ -40,5 +40,6 @@ const AdminHome = () => {
 };
 
 export default AdminHome;
+
 
 
