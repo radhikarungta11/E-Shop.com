@@ -1,5 +1,5 @@
 require("dotenv").config();
-const express = require("express");
+const express = require("express");  
 const cors = require("cors"); 
 const path = require("path");
 const app = express();
@@ -61,4 +61,5 @@ app.post("/create-payment-intent", async (req, res) => {
 
 const PORT = process.env.PORT || 4242;
 app.listen(PORT, () => console.log(`Node server listening on port ${PORT}!`));
+
 
