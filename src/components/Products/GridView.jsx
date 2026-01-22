@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { formatPrice } from "../../utils/formatPrice";
+import { formatPrice } from "../../utils/formatPrice";  
 import { FcSearch } from "react-icons/fc";
 //  lazy load
 import { LazyLoadImage } from "react-lazy-load-image-component";
@@ -63,3 +63,4 @@ const GridView = ({ products }) => {
 };
 
 export default React.memo(GridView);
+
