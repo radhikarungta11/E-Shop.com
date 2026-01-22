@@ -7,7 +7,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 // redux
 import { useDispatch, useSelector } from "react-redux";
-import { addToCart } from "../../redux/slice/cartSlice";
+import { addToCart } from "../../redux/slice/cartSlice";  
 
 const GridView = ({ products }) => {
 	const dispatch = useDispatch();
@@ -63,4 +63,5 @@ const GridView = ({ products }) => {
 };
 
 export default React.memo(GridView);
+
 
