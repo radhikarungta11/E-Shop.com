@@ -1,6 +1,6 @@
 # Fullstack-Ecommerce  
   
-# 💰 Eshop.com 💰
+# 💰 Eshop.com 💰  
 
 EShop.com is an e-Commerce website that enables users to shop through variety of products(electronic / household / fashion) , 
 add a product to their cart, and checkout. A user can either register their own username and password or 
